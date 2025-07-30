@@ -1,0 +1,40 @@
+/* 
+ /* Navbar.css */
+.custom-navbar {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  padding: 0.7rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.logo-text span {
+  color: #ffe600;
+}
+
+.nav-link-custom {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0 0.6rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #ffe600 !important;
+  transform: scale(1.05);
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' fill='white' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} 
